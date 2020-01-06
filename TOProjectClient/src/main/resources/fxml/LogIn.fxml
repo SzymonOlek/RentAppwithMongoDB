@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ClientController">
+   <children>
+      <Button fx:id="MakeAccount" mnemonicParsing="false" onAction="#OnActionMakeAccount" text="Rejestracja">
+         <StackPane.margin>
+            <Insets right="300.0" top="250.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="LogIn" mnemonicParsing="false" onAction="#OnActionLogIn" text="Zaloguj">
+         <StackPane.margin>
+            <Insets top="50.0" />
+         </StackPane.margin>
+      </Button>
+      <TextField fx:id="login" alignment="CENTER" maxWidth="150.0" promptText="Login">
+         <StackPane.margin>
+            <Insets bottom="175.0" />
+         </StackPane.margin>
+      </TextField>
+      <PasswordField fx:id="password" alignment="CENTER" maxWidth="150.0" promptText="Haslo">
+         <StackPane.margin>
+            <Insets bottom="75.0" />
+         </StackPane.margin>
+      </PasswordField>
+   </children>
+</StackPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employ.employeeController">
+   <children>
+      <Button fx:id="backAddStore" mnemonicParsing="false" onAction="#OnActionBackAddStore" text="Powrot">
+         <StackPane.margin>
+            <Insets left="300.0" top="250.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="AddStore" mnemonicParsing="false" onAction="#OnActionAddStore" text="Dodaj">
+         <StackPane.margin>
+            <Insets top="125.0" />
+         </StackPane.margin>
+      </Button>
+      <TextField fx:id="lokalizacja" alignment="CENTER" maxWidth="200.0" promptText="Lokalizacja">
+         <StackPane.margin>
+            <Insets bottom="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="size" alignment="CENTER" maxWidth="200.0" promptText="Powierzchnia">
+         <StackPane.margin>
+            <Insets bottom="50.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="name" alignment="CENTER" maxWidth="200.0" promptText="Nazwa">
+         <StackPane.margin>
+            <Insets bottom="125.0" />
+         </StackPane.margin>
+      </TextField>
+   </children>
+</StackPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#mouseBackground" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ClientController">
+   <children>
+      <TextField fx:id="getID" alignment="CENTER" maxWidth="150.0" promptText="Podaj id produktu">
+         <StackPane.margin>
+            <Insets bottom="175.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="dzienOd" maxWidth="75.0" promptText="dzien">
+         <StackPane.margin>
+            <Insets bottom="25.0" right="160.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="rokOd" maxWidth="75.0" promptText="rok">
+         <StackPane.margin>
+            <Insets bottom="25.0" left="160.0" />
+         </StackPane.margin>
+      </TextField>
+      <Label text="Podaj date wypozyczenia">
+         <StackPane.margin>
+            <Insets bottom="75.0" />
+         </StackPane.margin>
+      </Label>
+      <Label text="Podaj date planowanego zwrotu">
+         <StackPane.margin>
+            <Insets top="75.0" />
+         </StackPane.margin>
+      </Label>
+      <TextField fx:id="dzienDo" maxWidth="75.0" promptText="dzien">
+         <StackPane.margin>
+            <Insets right="160.0" top="125.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="miesDo" maxWidth="75.0" promptText="miesiac">
+         <StackPane.margin>
+            <Insets top="125.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="rokDo" maxWidth="75.0" promptText="rok">
+         <StackPane.margin>
+            <Insets left="160.0" top="125.0" />
+         </StackPane.margin>
+      </TextField>
+      <Button fx:id="accept" mnemonicParsing="false" onAction="#OnActionAccept" text="Zatwierdz">
+         <StackPane.margin>
+            <Insets top="250.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="backRent" mnemonicParsing="false" onAction="#OnActionBackRent" text="Powrót">
+         <StackPane.margin>
+            <Insets left="300.0" top="250.0" />
+         </StackPane.margin>
+      </Button>
+      <TextField fx:id="miesOd" maxWidth="75.0" promptText="miesiac">
+         <StackPane.margin>
+            <Insets bottom="25.0" />
+         </StackPane.margin>
+      </TextField>
+      <MenuButton fx:id="store" mnemonicParsing="false" text="Wybierz Sklep">
+         <StackPane.margin>
+            <Insets bottom="275.0" />
+         </StackPane.margin>
+      </MenuButton>
+   </children>
+</StackPane>

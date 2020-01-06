@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employ.employeeController">
+   <children>
+      <TextField fx:id="nazwa" alignment="CENTER" maxWidth="150.0" promptText="nazwa">
+         <StackPane.margin>
+            <Insets bottom="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="cost" alignment="CENTER" maxWidth="150.0" promptText="koszt wypozyczenia">
+         <StackPane.margin>
+            <Insets bottom="50.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="waga" alignment="CENTER" maxWidth="150.0" promptText="waga">
+         <StackPane.margin>
+            <Insets bottom="125.0" />
+         </StackPane.margin>
+      </TextField>
+      <Button fx:id="addProduct" mnemonicParsing="false" onAction="#OnActionAddProduct" text="Dodaj">
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="back" mnemonicParsing="false" onAction="#OnActionBack" text="Powrót">
+         <StackPane.margin>
+            <Insets left="300.0" top="250.0" />
+         </StackPane.margin>
+      </Button>
+   </children>
+</StackPane>
